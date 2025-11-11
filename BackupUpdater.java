@@ -3,8 +3,8 @@ import java.util.Arrays;
 
 public class BackupUpdater {
     public static void main(String args[]) {
-        String folder_path = "C:/Users/MrRobot/Desktop/portfolio";
-        String backup_path = "C:\\Users\\MrRobot\\Desktop\\New folder";
+        String folder_path = "myFolder";
+        String backup_path = "myFolder-backup";
 
         File folder = new File(folder_path);
         File backup = new File(backup_path);
